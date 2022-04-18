@@ -77,7 +77,7 @@ public class Basket {
     public int getQuantityOfSameProducts(String id) {
         int counter = 0;
         for(Product product : productList){
-            if (id == product.getId()) {
+            if (id.equals(product.getId())) {
                 counter++;
             }
         }
