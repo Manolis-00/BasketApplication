@@ -1,12 +1,5 @@
 package com.example.basketapplication.models;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
-
-/*
-@Entity
-@Table(name = "Products")
- */
 public class Product {
 
     private String id;
